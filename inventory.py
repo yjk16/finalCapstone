@@ -1,18 +1,6 @@
 # This program will allow the user to choose an option from the menu
 # and view and/ or change various values from a list of Nike shoes.
 
-# Read: https://stackoverflow.com/questions/62414396/how-to-skip-first-line-in-python-using-read-function
-# to help me skip the first line of inventory.txt.
-# https://www.geeksforgeeks.org/searching-a-list-of-objects-in-python/
-# to help me figure out how to search for an object within a class using attributes.
-# Had help from my friends Silas and Nick with error handling.
-# Had help from mentor Jonathan Lloyd with things including which try/ except to use, indentations on for loops
-# and the search_shoe section.
-# Read different websites including geeksforgeeks.org on how to use tabulate.
-# My friend Silas helped me with tabulate, especially how to install pip.
-# I've changed the format of my docstrings as suggested by reviewer Chris Smit (thank you!)
-
-
 # Importing relevant files and libraries.
 from shoe import Shoe
 from tabulate import tabulate
@@ -162,15 +150,6 @@ def capture_shoes():
     new_shoe = Shoe(country, code, product, cost, quantity)
 
     capture = open("inventory.txt", "a")
-    # I'm a bit confused as I know it was suggested that I move the \n from the end of the line to the beginning
-    # but when I do that, it creates a blank line as I think there is already a \n at the end of the previous line.
-    # Also, after using functions re_stock() and highest_qty() a \n is automatically formed
-    # so if capturing a shoe after using one of those functions, again a blank line is created.
-    # I also tried moving all the '\n's to the beginning of their lines but that causes an IndexError because
-    # it creates a blank line on line 2 of the file
-    # between the titles (for the functions re_stock() and highest_qty()) and the shoes when rewriting them back.
-    # So I did move the \n, but I've moved it back.  I hope that's ok.
-    # Have I understood the comment from the review for the right section?
     capture.write(f"{country},{code},{product},{cost},{quantity}\n")
     capture.close()
 
