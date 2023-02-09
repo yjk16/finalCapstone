@@ -1,8 +1,17 @@
 # finalCapstone
-An OOP based system to add to, search for and update an inventory for shoes.
-This is a Python program that uses OOP (Object-Oriented Programming).
+Table of contents:
 
-The Shoe class is kept in a separate file (shoe.py) and has the parameters of 'country', 'code', 'product', 'cost' and 'quantity'.
+1. Short description
+2. Installation section
+3. Usage instructions
+
+1. An OOP based system to add to, search for and update an inventory for shoes.
+   This is a Python program that uses OOP (Object-Oriented Programming).
+
+2. To install inventory.py and the related files click on the green button 'code', then click on 'download ZIP'.
+   ![Alt text](C:\Users\yjk16\OneDrive\Pictures\Screenshots "final_capstone_download_readme_instructions")
+
+3. The contents of the program inventory.py include a 'Shoe class' which is kept in a separate file (shoe.py) and has the parameters of 'country', 'code', 'product', 'cost' and 'quantity'. This is for clarity of code and much simpler error handling.
 There are getters in the Shoe class (methods to get the value) for 'code', 'cost' and 'quantity'.
 There are setters in the Shoe class (methods to set or change the value) for 'cost' and 'quantity'.
 Finally, there is a repr method included in the Shoe class, which returns a string representation of a shoe object when it is called.
