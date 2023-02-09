@@ -16,7 +16,7 @@ This is a Python program that uses OOP (Object-Oriented Programming).
 To install inventory.py and the related files click on the green button 'code', then click on 'download ZIP'.
 
 ### 3. Usage Instructions
-The contents of the program inventory.py include a 'Shoe class' which is kept in a separate file (shoe.py) and has the parameters of 'country', 'code', 'product', 'cost' and 'quantity'. This is for clarity of code and much simpler error handling.
+The contents of the program inventory.py include a 'Shoe class' which is kept in a separate file (shoe.py) and has the parameters 'country', 'code', 'product', 'cost' and 'quantity'. This is for clarity and much simpler error handling.
 There are getters in the Shoe class (methods to get the value) for 'code', 'cost' and 'quantity'.
 There are setters in the Shoe class (methods to set or change the value) for 'cost' and 'quantity'.
 Finally, there is a repr method included in the Shoe class, which returns a string representation of a shoe object when it is called.
@@ -30,4 +30,3 @@ and find the shoe with the highest quanitity and reduce the price of this shoe.
 
 Here is an example of what it looks like:
 ![inventory](https://user-images.githubusercontent.com/122183006/217773910-0903b401-754e-4436-b656-ed636487206a.png)
-
